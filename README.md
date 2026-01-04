@@ -24,22 +24,22 @@ E -- Real-time Visualization --> F[User Browser]
 - Binance Public API entegrasyonu
 - Timeout ve hata yönetimi
 
-### 🔄 **Transform **
+### 🔄 **Transform**
 - Ham JSON verisinin temizlenmesi
 - Otomatik zaman damgası eklenmesi
 - Tip dönüşümleri ve veri normalizasyonu
 
-### 💾 **Load **
+### 💾 **Load**
 - Verilerin SQLite veritabanına yapısal olarak kaydedilmesi
 - CSV formatında yedekleme
 - Otomatik tablo oluşturma
 
-### 🤖 **Automation **
+### 🤖 **Automation**
 - **Linux/Mac:** Bash script ile arka planda kesintisiz veri akışı
 - **Windows:** PowerShell script ile process yönetimi
 - Ctrl+C ile temiz çıkış mekanizması
 
-### 📊 **Visualization **
+### 📊 **Visualization**
 - Streamlit ile otomatik güncellenen canlı fiyat grafikleri
 - Anlık metrik kartları (toplam veri, son güncelleme, coin sayısı)
 - İnteraktif tablo görünümleri
