@@ -75,7 +75,7 @@ def database_kaydet(data):
                       (satir["coin"], satir["price"], satir["time"]))
     conn.commit()
     conn.close()
-    print(f"✓ SQL'e Kaydedildi: {data[0]['time']}")
+
 
         
 
@@ -87,3 +87,4 @@ if __name__ == "__main__":
     if temiz_veri:
         database_kaydet(temiz_veri)
         csv_kaydet(temiz_veri)
+    print("-"*50)
